@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.hpotter:hover, .hgryffindor:hover, .hhufflepuff:hover, .hravenclaw:hover, .hslytherin:hover{
+    background-color: transparent;
+    transition: .5s;
+}
+
+.hpotter:hover{
+    color: #ea580c;
+    border: 2px solid #ea580c;
+}
+ 
+.hgryffindor:hover{
+    color: #d60b0b;
+    border: 2px solid #d60b0b;
+}
+ 
+.hhufflepuff:hover{
+    color: #cf9d02;
+    border: 2px solid #cf9d02;
+}
+ 
+.hravenclaw:hover{
+    color: #2563eb;
+    border: 2px solid #2563eb;
+}
+
+.hslytherin:hover{
+    color: #15803d;
+    border: 2px solid #15803d;
+}
+ 
